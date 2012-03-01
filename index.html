@@ -1,1 +1,54 @@
-My First GitHub Page
+<!DOCTYPE html/>
+
+<html>
+	<head>
+		<style type="text/css">
+			.shadow {
+				width: 400px;
+				height: 200px;
+				background: #eee;
+				
+				-moz-box-shadow: 1px 1px 4px #666; /* Firefox */
+				-webkit-box-shadow: 1px 1px 4px #666; /* safari, chrome */ 
+				filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=0px, OffY=2px, Color='#333333');  /* ie */
+				-ms-filter: "progid:DXImageTransform.Microsoft.dropshadow(OffX=0px, OffY=2px, Color='#333333')"; /* ie */
+				
+				/* ½¥±ä */
+				background: -moz-linear-gradient(top, #eaeaea, #999999);
+				background: -webkit-gradient(linear, left, top, bottom, color-stop(0, #eaeaea), color-stop(1, #999999));
+				filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eaeaea', endColorstr='#999999');
+				
+				/* Ðý×ª */
+				-moz-transform:rotate(-2deg); 
+				-webkit-transform:rotate(-2deg); 
+				-ms-transform: rotate(-2deg); 
+				filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=0.9914448613738104, M12=-0.13052619222005157, M21=0.13052619222005157, M22=0.9914448613738104); 
+				-ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=0.9914448613738104, M12=-0.13052619222005157, M21=0.13052619222005157, M22=0.9914448613738104,sizingMethod='auto expand')";
+				
+				box-sizing: content-box;
+				-moz-box-sizing: content-box;
+				-ms-box-sizing: content-box;
+				
+				/**
+				outline: 1px dotted #cccccc;
+				outline-offset: 10px;
+				*/
+			}
+		</style>
+	</head>
+	<body>
+		<p>css test</P>
+		<div class="shadow">shadow</div>
+	</body>
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-29618624-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+</html>
